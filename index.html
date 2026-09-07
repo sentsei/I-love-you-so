@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>I Love You babyy ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <div id="startScreen">
+
+        <div class="startBox">
+
+            <div class="startHeart">♡</div>
+
+            <h1>I Love You So</h1>
+
+            <p>tap the button to start</p>
+
+            <button id="startButton">
+                PLAY ♡
+            </button>
+
+        </div>
+
+    </div>
+
+
+    
+    <main class="website">
+
+        
+        <div id="hearts"></div>
+
+        
+        <header>
+
+            <div class="handText">
+                i love you so ♡
+            </div>
+
+            <div class="topHeart">
+                ♡
+            </div>
+
+        </header>
+
+
+        
+        <section class="musicPlayer">
+
+            <div class="songInfo">
+
+                <h1>I Love You So</h1>
+
+                <p>The Walters</p>
+
+            </div>
+
+
+            
+            <div class="visualizer" id="visualizer"></div>
+
+
+            
+            <div class="progressContainer">
+
+                <span id="currentTime">
+                    0:00
+                </span>
+
+                <input
+                    type="range"
+                    id="progress"
+                    min="0"
+                    max="100"
+                    value="0"
+                >
+
+                <span id="duration">
+                    0:00
+                </span>
+
+            </div>
+
+
+            
+            <div class="controls">
+
+                <button id="backButton">
+                    ↶
+                </button>
+
+                <button id="playButton" class="playButton">
+                    ▶
+                </button>
+
+                <button id="forwardButton">
+                    ↷
+                </button>
+
+            </div>
+
+
+            
+            <div class="message">
+
+                <p>
+                    some songs just feel like a person ♡
+                </p>
+
+            </div>
+
+
+            
+            <div class="volume">
+
+                <span>♪</span>
+
+                <input
+                    type="range"
+                    id="volume"
+                    min="0"
+                    max="1"
+                    step="0.01"
+                    value="0.75"
+                >
+
+            </div>
+
+        </section>
+
+
+        <div class="scrollText">
+            scroll for more
+            <br>
+            <span>⌄</span>
+        </div>
+
+    </main>
+
+
+    
+    <audio id="music">
+
+        <source
+            src="iloveyouso.mp3"
+            type="audio/mpeg"
+        >
+
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
